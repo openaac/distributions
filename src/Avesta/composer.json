@@ -3,7 +3,9 @@
     "type": "library",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/openaac/distributions/issues"
+        "issues": "https://github.com/openaac/distributions/issues",
+        "source": "https://github.com/openaac/distributions",
+        "wiki": "https://github.com/openaac/openaac/wiki"
     },
     "authors": [
         {
