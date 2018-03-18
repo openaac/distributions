@@ -1,19 +1,26 @@
 {
-    "name": "pandaac/distro-tfs12",
+    "name": "openaac/distro-tfs12",
     "type": "library",
     "license": "MIT",
+    "support": {
+        "issues": "https://github.com/openaac/distributions/issues"
+    },
     "authors": [
         {
             "name": "Christopher Eklund",
             "email": "eklundchristopher@gmail.com"
+        },
+        {
+            "name": "Panagiotis Pagoulatos",
+            "email": "phpanos@gmail.com"
         }
     ],
     "require": {
-        "pandaac/core": "self.version"
+        "openaac/core": "self.version"
     },
     "autoload": {
         "psr-4": {
-            "pandaac\\Distributions\\TFS12\\": "src/"
+            "OpenAAC\\Distributions\\TFS12\\": "src/"
         }
     }
 }

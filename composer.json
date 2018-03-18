@@ -1,24 +1,31 @@
 {
-    "name": "pandaac/distributions",
+    "name": "openaac/distributions",
     "type": "library",
     "license": "MIT",
+    "support": {
+        "issues": "https://github.com/openaac/distributions/issues"
+    },
     "authors": [
         {
             "name": "Christopher Eklund",
             "email": "eklundchristopher@gmail.com"
+        },
+        {
+            "name": "Panagiotis Pagoulatos",
+            "email": "phpanos@gmail.com"
         }
     ],
     "require": {
-        "pandaac/core": "self.version"
+        "openaac/core": "self.version"
     },
     "replace": {
-        "pandaac/distro-avesta": "self.version",
-        "pandaac/distro-tfs12": "self.version"
+        "openaac/distro-avesta": "self.version",
+        "openaac/distro-tfs12": "self.version"
     },
     "autoload": {
         "psr-4": {
-            "pandaac\\Distributions\\Avesta\\": "src/Avesta/src/",
-            "pandaac\\Distributions\\TFS12\\": "src/TFS12/src/"
+            "OpenAAC\\Distributions\\Avesta\\": "src/Avesta/src/",
+            "OpenAAC\\Distributions\\TFS12\\": "src/TFS12/src/"
         }
     }
 }

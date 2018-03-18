@@ -1,19 +1,26 @@
 {
-    "name": "pandaac/distro-avesta",
+    "name": "openaac/distro-avesta",
     "type": "library",
     "license": "MIT",
+    "support": {
+        "issues": "https://github.com/openaac/distributions/issues"
+    },
     "authors": [
         {
             "name": "Christopher Eklund",
             "email": "eklundchristopher@gmail.com"
+        },
+        {
+            "name": "Panagiotis Pagoulatos",
+            "email": "phpanos@gmail.com"
         }
     ],
     "require": {
-        "pandaac/core": "self.version"
+        "openaac/core": "self.version"
     },
     "autoload": {
         "psr-4": {
-            "pandaac\\Distributions\\Avesta\\": "src/"
+            "OpenAAC\\Distributions\\Avesta\\": "src/"
         }
     }
 }

@@ -1,10 +1,10 @@
 <?php
 
-namespace pandaac\Distributions\TFS12\Providers;
+namespace OpenAAC\Distributions\TFS12\Providers;
 
-use pandaac\Contracts;
-use pandaac\Distributions\TFS12\Models;
-use pandaac\Core\Contracts\Distribution as Contract;
+use OpenAAC\Contracts;
+use OpenAAC\Distributions\TFS12\Models;
+use OpenAAC\Core\Contracts\Distribution as Contract;
 
 class DistributionProvider implements Contract
 {

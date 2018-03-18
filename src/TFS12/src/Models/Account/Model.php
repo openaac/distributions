@@ -1,8 +1,8 @@
 <?php
 
-namespace pandaac\Distributions\TFS12\Models\Account;
+namespace OpenAAC\Distributions\TFS12\Models\Account;
 
-use pandaac\Contracts\Account as Contract;
+use OpenAAC\Contracts\Account as Contract;
 use Illuminate\Database\Eloquent\Model as BaseModel;
 
 class Model extends BaseModel implements Contract

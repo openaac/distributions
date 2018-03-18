@@ -1,8 +1,8 @@
 <?php
 
-namespace pandaac\Distributions\Avesta\Models\Account;
+namespace OpenAAC\Distributions\Avesta\Models\Account;
 
-use pandaac\Contracts\Account as Contract;
+use OpenAAC\Contracts\Account as Contract;
 use Illuminate\Database\Eloquent\Model as BaseModel;
 
 class Model extends BaseModel implements Contract
